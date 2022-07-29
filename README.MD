@@ -32,7 +32,7 @@ To convert inline ```<style lang="scss">```
 /* functions.php */
 
 /* Is not required rename the namespace using MBC\inc before the class is fine */
-use MBC\inc as PLUGINS;
+use MBC\inc\native as NATIVE;
 
 $scss = '<style lang="scss">
 .test {
@@ -44,7 +44,7 @@ $scss = '<style lang="scss">
 }
 </style>';
 
-$css = PLUGINS/scss::convert($scss);
+$css = NATIVE/scss::convert($scss);
 echo $css;
 /**
  * <style>.test h1 b {color:red}</style>
@@ -57,7 +57,7 @@ if you want to compile straight scss you can use compile
 /* functions.php */
 
 /* Is not required rename the namespace using MBC\inc before the class is fine */
-use MBC\inc as PLUGINS;
+use MBC\inc\native as NATIVE;
 
 $scss = '.test {
     h1 {
@@ -67,7 +67,7 @@ $scss = '.test {
     }
 }';
 
-$css = PLUGINS/scss::compile($scss);
+$css = NATIVE/scss::compile($scss);
 echo $css;
 /**
  * .test h1 b {color:red}

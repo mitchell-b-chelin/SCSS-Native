@@ -7,14 +7,14 @@
  * https://scssphp.github.io/scssphp
  *
  * @link		https://github.com/mitchell-b-chelin/SCSS-Native/blob/main/LICENSE
- * @since 		1.0.1
+ * @since 		1.0.2
  * @package		MBC
  *
  * @better-rest
  * Plugin Name:	   	Native SCSS
  * Plugin URI:		https://github.com/mitchell-b-chelin/SCSS-Native/blob/main/LICENSE
  * Description:	   	Native Compile SCSS to inline CSS for WordPress.
- * Version:		   	1.0.1
+ * Version:		   	1.0.2
  * Author:			Mitchell-Blair Chelin
  * Author URI:		https://github.com/mitchell-b-chelin/
  * License:		   	MIT
