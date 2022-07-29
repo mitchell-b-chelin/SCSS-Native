@@ -5,7 +5,7 @@
  *
  * @package MBC\Docsify
  */
-namespace MBC\inc;
+namespace MBC\inc\native;
 defined( 'ABSPATH' ) || exit;
 include_once(__DIR__ . '/compiler/scss.inc.php');
 
