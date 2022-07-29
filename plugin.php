@@ -10,7 +10,6 @@
  * @since 		1.0.2
  * @package		MBC
  *
- * @better-rest
  * Plugin Name:	   	Native SCSS
  * Plugin URI:		https://github.com/mitchell-b-chelin/SCSS-Native/blob/main/LICENSE
  * Description:	   	Native Compile SCSS to inline CSS for WordPress.
